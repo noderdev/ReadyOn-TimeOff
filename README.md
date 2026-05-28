@@ -141,6 +141,8 @@ HCM sends a full list of balances. For each one we update `hcmBalance` but leave
 
 ## Tests
 
+## Tests
+
 We have three levels of tests — unit tests for pure logic, integration tests with a real SQLite database, and end-to-end tests that send real HTTP requests through the whole stack.
 
 For HCM we run a small mock server during tests that behaves like a real HCM. We can tell it to return a 422, simulate a timeout, or go completely offline. This lets us test every failure path without touching a real HCM.
@@ -150,6 +152,28 @@ A few things that must always be true no matter what:
 - A request is never approved when available days are less than requested
 - Two requests with the same idempotency key result in only one record
 - A batch sync never changes `reservedDays`
+
+To run the tests:
+
+```bash
+npm test                # all tests
+npm run test:unit       # unit tests only
+npm run test:integration  # integration tests only
+npm run test:e2e        # end-to-end tests only
+```
+
+To generate a coverage report:
+
+```bash
+npm run test:cov
+```
+
+This prints a summary in the terminal and also generates a full HTML report at `coverage/lcov-report/index.html`. Open it in a browser to see line-by-line coverage for every file.
+
+Here is a sample report of the test coverage:-
+
+<img width="1432" height="685" alt="Screenshot 2026-05-27 at 5 34 30 PM" src="https://github.com/user-attachments/assets/7a491069-68a2-4387-bc85-04e2d8e466e4" />
+
 
 ---
 
