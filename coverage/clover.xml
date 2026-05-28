@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1779927124803" clover="3.2.0">
+  <project timestamp="1779927124803" name="All files">
+    <metrics statements="401" coveredstatements="393" conditionals="126" coveredconditionals="109" methods="49" coveredmethods="47" elements="576" coveredelements="549" complexity="0" loc="401" ncloc="401" packages="10" files="19" classes="19"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="app.module.ts" path="/Users/sauravsingh/readyon-timeoff/src/app.module.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.balance">
+      <metrics statements="108" coveredstatements="105" conditionals="42" coveredconditionals="34" methods="12" coveredmethods="12"/>
+      <file name="balance.controller.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/balance.controller.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="10" type="stmt"/>
+        <line num="52" count="10" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+      </file>
+      <file name="balance.module.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/balance.module.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="balance.service.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/balance.service.ts">
+        <metrics statements="85" coveredstatements="82" conditionals="42" coveredconditionals="34" methods="8" coveredmethods="8"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="18" type="stmt"/>
+        <line num="23" count="18" type="stmt"/>
+        <line num="25" count="18" type="stmt"/>
+        <line num="27" count="18" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="36" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="40" count="29" type="stmt"/>
+        <line num="44" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="55" count="26" type="stmt"/>
+        <line num="59" count="33" type="stmt"/>
+        <line num="61" count="31" type="stmt"/>
+        <line num="65" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="74" count="28" type="stmt"/>
+        <line num="86" count="31" type="stmt"/>
+        <line num="99" count="31" type="stmt"/>
+        <line num="107" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="2" type="stmt"/>
+        <line num="115" count="7" type="stmt"/>
+        <line num="116" count="7" type="stmt"/>
+        <line num="123" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="124" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="126" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="127" count="7" type="stmt"/>
+        <line num="128" count="7" type="stmt"/>
+        <line num="129" count="7" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="143" count="7" type="stmt"/>
+        <line num="157" count="7" type="stmt"/>
+        <line num="159" count="7" type="stmt"/>
+        <line num="172" count="15" type="stmt"/>
+        <line num="175" count="15" type="stmt"/>
+        <line num="176" count="19" type="stmt"/>
+        <line num="180" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="181" count="1" type="stmt"/>
+        <line num="186" count="18" type="stmt"/>
+        <line num="187" count="18" type="stmt"/>
+        <line num="188" count="18" type="stmt"/>
+        <line num="190" count="18" type="stmt"/>
+        <line num="203" count="18" type="cond" truecount="4" falsecount="1"/>
+        <line num="204" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="206" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="207" count="13" type="stmt"/>
+        <line num="220" count="13" type="stmt"/>
+        <line num="223" count="13" type="stmt"/>
+        <line num="226" count="5" type="stmt"/>
+        <line num="227" count="5" type="stmt"/>
+        <line num="232" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="241" count="5" type="stmt"/>
+        <line num="245" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="251" count="5" type="stmt"/>
+        <line num="252" count="5" type="stmt"/>
+        <line num="254" count="5" type="stmt"/>
+        <line num="261" count="5" type="stmt"/>
+        <line num="274" count="5" type="stmt"/>
+        <line num="277" count="5" type="stmt"/>
+        <line num="286" count="10" type="stmt"/>
+        <line num="290" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="291" count="0" type="stmt"/>
+        <line num="296" count="10" type="stmt"/>
+        <line num="297" count="10" type="stmt"/>
+        <line num="298" count="10" type="stmt"/>
+        <line num="299" count="10" type="stmt"/>
+        <line num="301" count="10" type="stmt"/>
+        <line num="314" count="10" type="stmt"/>
+        <line num="327" count="10" type="stmt"/>
+        <line num="330" count="10" type="stmt"/>
+        <line num="335" count="44" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.balance.dto">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="batch-sync.dto.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/dto/batch-sync.dto.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="sync-balance.dto.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/dto/sync-balance.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.balance.entities">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="balance.entity.ts" path="/Users/sauravsingh/readyon-timeoff/src/balance/entities/balance.entity.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="41" count="53" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.hcm">
+      <metrics statements="67" coveredstatements="67" conditionals="38" coveredconditionals="34" methods="14" coveredmethods="14"/>
+      <file name="hcm.module.ts" path="/Users/sauravsingh/readyon-timeoff/src/hcm/hcm.module.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="hcm.service.ts" path="/Users/sauravsingh/readyon-timeoff/src/hcm/hcm.service.ts">
+        <metrics statements="61" coveredstatements="61" conditionals="38" coveredconditionals="34" methods="13" coveredmethods="13"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="23" type="stmt"/>
+        <line num="33" count="23" type="stmt"/>
+        <line num="34" count="23" type="stmt"/>
+        <line num="36" count="23" type="stmt"/>
+        <line num="37" count="23" type="stmt"/>
+        <line num="38" count="23" type="stmt"/>
+        <line num="42" count="49" type="stmt"/>
+        <line num="43" count="68" type="stmt"/>
+        <line num="44" count="68" type="stmt"/>
+        <line num="49" count="36" type="stmt"/>
+        <line num="51" count="32" type="stmt"/>
+        <line num="62" count="10" type="stmt"/>
+        <line num="63" count="10" type="stmt"/>
+        <line num="64" count="10" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="73" count="4" type="stmt"/>
+        <line num="84" count="4" type="stmt"/>
+        <line num="85" count="5" type="stmt"/>
+        <line num="86" count="5" type="stmt"/>
+        <line num="93" count="4" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="101" count="37" type="cond" truecount="5" falsecount="0"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="107" count="33" type="stmt"/>
+        <line num="108" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="109" count="18" type="stmt"/>
+        <line num="110" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="2" type="stmt"/>
+        <line num="115" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="116" count="2" type="stmt"/>
+        <line num="118" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="119" count="10" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+        <line num="124" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="125" count="6" type="stmt"/>
+        <line num="128" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="129" count="6" type="stmt"/>
+        <line num="132" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="137" count="63" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="63" type="stmt"/>
+        <line num="141" count="83" type="stmt"/>
+        <line num="142" count="83" type="stmt"/>
+        <line num="144" count="37" type="stmt"/>
+        <line num="145" count="37" type="cond" truecount="4" falsecount="0"/>
+        <line num="147" count="5" type="stmt"/>
+        <line num="149" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="150" count="20" type="stmt"/>
+        <line num="151" count="20" type="stmt"/>
+        <line num="156" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.sync">
+      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="sync.module.ts" path="/Users/sauravsingh/readyon-timeoff/src/sync/sync.module.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="sync.service.ts" path="/Users/sauravsingh/readyon-timeoff/src/sync/sync.service.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.sync.entities">
+      <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="sync-log.entity.ts" path="/Users/sauravsingh/readyon-timeoff/src/sync/entities/sync-log.entity.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.time-off-request">
+      <metrics statements="114" coveredstatements="109" conditionals="38" coveredconditionals="33" methods="16" coveredmethods="14"/>
+      <file name="time-off-request.controller.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/time-off-request.controller.ts">
+        <metrics statements="26" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="40" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+      </file>
+      <file name="time-off-request.module.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/time-off-request.module.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="time-off-request.service.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/time-off-request.service.ts">
+        <metrics statements="80" coveredstatements="78" conditionals="34" coveredconditionals="30" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="19" type="stmt"/>
+        <line num="25" count="19" type="stmt"/>
+        <line num="26" count="19" type="stmt"/>
+        <line num="27" count="19" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+        <line num="39" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="44" count="16" type="stmt"/>
+        <line num="49" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="73" count="14" type="stmt"/>
+        <line num="77" count="13" type="stmt"/>
+        <line num="79" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="86" count="12" type="stmt"/>
+        <line num="91" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="106" count="9" type="stmt"/>
+        <line num="107" count="9" type="stmt"/>
+        <line num="111" count="7" type="stmt"/>
+        <line num="113" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="114" count="2" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="133" count="7" type="stmt"/>
+        <line num="141" count="7" type="stmt"/>
+        <line num="142" count="7" type="stmt"/>
+        <line num="143" count="7" type="stmt"/>
+        <line num="146" count="7" type="stmt"/>
+        <line num="147" count="7" type="stmt"/>
+        <line num="155" count="6" type="stmt"/>
+        <line num="162" count="6" type="stmt"/>
+        <line num="163" count="6" type="stmt"/>
+        <line num="164" count="6" type="stmt"/>
+        <line num="167" count="1" type="stmt"/>
+        <line num="175" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="177" count="1" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="183" count="6" type="stmt"/>
+        <line num="191" count="3" type="stmt"/>
+        <line num="193" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="197" count="1" type="stmt"/>
+        <line num="202" count="2" type="stmt"/>
+        <line num="203" count="2" type="stmt"/>
+        <line num="204" count="2" type="stmt"/>
+        <line num="205" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="206" count="2" type="stmt"/>
+        <line num="209" count="2" type="stmt"/>
+        <line num="213" count="7" type="stmt"/>
+        <line num="215" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="219" count="2" type="stmt"/>
+        <line num="224" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="226" count="3" type="stmt"/>
+        <line num="234" count="3" type="stmt"/>
+        <line num="242" count="5" type="stmt"/>
+        <line num="243" count="5" type="stmt"/>
+        <line num="245" count="5" type="stmt"/>
+        <line num="249" count="24" type="stmt"/>
+        <line num="250" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="251" count="1" type="stmt"/>
+        <line num="253" count="23" type="stmt"/>
+        <line num="261" count="10" type="stmt"/>
+        <line num="263" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="264" count="1" type="stmt"/>
+        <line num="269" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="270" count="1" type="stmt"/>
+        <line num="275" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="276" count="1" type="stmt"/>
+        <line num="279" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.time-off-request.dto">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="approve-request.dto.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/dto/approve-request.dto.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="create-time-off-request.dto.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/dto/create-time-off-request.dto.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="reject-request.dto.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/dto/reject-request.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.time-off-request.entities">
+      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="time-off-request.entity.ts" path="/Users/sauravsingh/readyon-timeoff/src/time-off-request/entities/time-off-request.entity.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
