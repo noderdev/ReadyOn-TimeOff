@@ -153,7 +153,7 @@ A few things that must always be true no matter what:
 
 ---
 
-## Alternatives we thought about
+## Alternatives I considered
 
 **Why not just call HCM on every read instead of keeping a local cache?**
 Because that would make the UI's availability completely dependent on HCM's availability. If HCM is slow or down, employees can't even see their balance. The local cache keeps things fast and means a read never fails just because HCM is having a bad moment. We still call HCM live before every deduction, so we don't give up any correctness.
