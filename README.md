@@ -3,6 +3,8 @@
 **Author:** Saurav Singh
 **Date:** 2026-05-27
 
+I used Claude Sonnet 4.6 to help accelerate the implementation by providing it with a clear set of requirements. I then reviewed the generated code carefully, made necessary adjustments, and validated the implementation end-to-end by testing the APIs directly. Just wanted to be transparent on my approach :)
+
 ---
 
 ## Background
@@ -138,8 +140,6 @@ All endpoints are under `/api/v1`.
 HCM sends a full list of balances. For each one we update `hcmBalance` but leave `reservedDays` alone — because HCM doesn't know about our in-flight reservations. We write an audit log entry for each update.
 
 ---
-
-## Tests
 
 ## Tests
 
