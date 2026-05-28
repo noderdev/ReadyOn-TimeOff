@@ -169,6 +169,36 @@ When a manager approves we respond immediately with `HCM_SUBMITTING`, then finis
 
 The better long-term answer is Server-Sent Events — the server pushes a notification to the browser the moment the status changes, no polling needed. It works over a regular HTTP connection (unlike WebSockets which need a protocol upgrade) and is supported natively in all modern browsers. We'd do this once the frontend is ready. WebSockets would also work but they're designed for two-way communication — overkill when the server just needs to push one update.
 
+## Codebase structure
+
+```
+src/
+├── balance/              # Everything related to balances
+│   ├── balance.controller.ts        # API endpoints (/balances)
+│   ├── balance.service.ts           # Cache, reservations, batch sync logic
+│   └── entities/balance.entity.ts  # The balances table
+│
+├── time-off-request/     # Everything related to requests
+│   ├── time-off-request.controller.ts       # API endpoints (/time-off-requests)
+│   ├── time-off-request.service.ts          # Approval flow, state machine
+│   └── entities/time-off-request.entity.ts  # The requests table
+│
+├── hcm/                  # All outbound HCM calls
+│   └── hcm.service.ts   # getBalance, deductBalance, restoreBalance + retry logic
+│
+├── sync/                 # Audit trail
+│   ├── sync.service.ts            # getLogs query
+│   └── entities/sync-log.entity.ts  # The sync_logs table
+│
+└── app.module.ts         # Wires everything together, DB config
+
+test/
+├── mock-hcm/     # Fake HCM server used in tests
+├── unit/         # Pure logic tests, no DB or HTTP
+├── integration/  # Tests with real SQLite + mock HCM
+└── e2e/          # Full HTTP tests end to end
+```
+
 ---
 
 *End of document*
